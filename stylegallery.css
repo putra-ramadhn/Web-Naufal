@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    float:right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #6d6d6dc2;
+    z-index: 1;
+
+ }
+
+ nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     margin-left: 750px;
+     
+}
+
+nav ul li {
+    float: left;
+}
+
+@font-face {
+    font-family: squidgame;
+    src: url('Game\ Of\ Squids.otf');
+}
+
+@font-face {
+    font-family: farfrom;
+    src: url('Far-From\ Homecoming\ Updated.otf');
+}
+
+nav ul li a {
+    color: #ffffff83;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 19px 5px 19px;
+    text-decoration: none;
+    transition: 0.6s;
+    margin: 5px;   
+    font-size: 27px;
+    font-family: squidgame;
+}
+
+nav ul li a:hover {
+    background-color: #6d6d6dc2;
+    color: #000000;
+}
+
+h1 {
+    font-family: 'farfrom' ;
+    font-size: 69.48px;
+    color: #19d441d1;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0) ;
+    margin-left: 45px;
+}
+
+h2 {
+    display: flex;
+    margin-top: -95px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+    font-family: farfrom;
+    font-size: 50px;
+    color: #19d42cd4;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0) ;
+}
+
+.wraper {
+    background-image: linear-gradient(white, rgb(173, 230, 177));
+    background-size: cover;
+    display: flex;
+    margin-top: 30px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.wadah {
+    background-image: linear-gradient(white, #69F7B3);
+    
+    border: 2px solid rgb(30, 255, 53);
+    border-radius: 50px;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+    width: 50%;
+    padding: 60px;
+    margin: 30px auto;
+}
+
+.gambar {
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.gambar2 {
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.wuu {
+    display: flex;
+    background-image: linear-gradient(white, #8bea91);
+    height: 500px;
+    width: 700px;
+    margin-left: 20px;
+    margin-bottom:200px;
+    margin-top: 100px;
+    border: 2px solid rgb(36, 248, 75);
+    border-radius: 50px;
+    margin-right: 40px;
+}
+    
+p {
+    margin: 20px;
+    font-family: adventure;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: adventure;
+    src: url(Adventure.otf);
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color: #6d6d6dc2;
+    margin-top: 30px;
+}
